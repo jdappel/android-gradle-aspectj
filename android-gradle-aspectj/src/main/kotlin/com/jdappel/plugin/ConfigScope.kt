@@ -1,4 +1,4 @@
-package com.archinamon.plugin
+package com.jdappel.plugin
 
 /**
  * TODO: Add description

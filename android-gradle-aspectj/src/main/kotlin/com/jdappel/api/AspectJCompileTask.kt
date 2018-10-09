@@ -1,10 +1,10 @@
-package com.archinamon.api
+package com.jdappel.api
 
-import com.archinamon.AndroidConfig
-import com.archinamon.AspectJExtension
-import com.archinamon.lang.kotlin.closureOf
-import com.archinamon.plugin.ConfigScope
-import com.archinamon.utils.*
+import com.jdappel.AndroidConfig
+import com.jdappel.AspectJExtension
+import com.jdappel.kotlin.closureOf
+import com.jdappel.plugin.ConfigScope
+import com.jdappel.utils.*
 import org.gradle.api.JavaVersion
 import org.gradle.api.Plugin
 import org.gradle.api.Project

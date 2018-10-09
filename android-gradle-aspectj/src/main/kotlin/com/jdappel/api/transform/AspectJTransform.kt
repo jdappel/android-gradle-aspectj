@@ -1,4 +1,4 @@
-package com.archinamon.api.transform
+package com.jdappel.api.transform
 
 import com.android.build.api.transform.*
 import com.android.build.gradle.internal.pipeline.TransformInvocationBuilder
@@ -6,13 +6,13 @@ import com.android.build.gradle.internal.pipeline.TransformManager
 import com.android.build.gradle.internal.pipeline.TransformTask
 import com.android.build.gradle.internal.variant.BaseVariantData
 import com.android.utils.FileUtils
-import com.archinamon.AndroidConfig
-import com.archinamon.api.AspectJMergeJars
-import com.archinamon.api.AspectJWeaver
-import com.archinamon.plugin.ConfigScope
-import com.archinamon.utils.*
-import com.archinamon.utils.DependencyFilter.isExcludeFilterMatched
-import com.archinamon.utils.DependencyFilter.isIncludeFilterMatched
+import com.jdappel.AndroidConfig
+import com.jdappel.api.AspectJMergeJars
+import com.jdappel.api.AspectJWeaver
+import com.jdappel.plugin.ConfigScope
+import com.jdappel.utils.*
+import com.jdappel.utils.DependencyFilter.isExcludeFilterMatched
+import com.jdappel.utils.DependencyFilter.isIncludeFilterMatched
 import com.google.common.collect.Sets
 import org.aspectj.util.FileUtil
 import org.gradle.api.GradleException

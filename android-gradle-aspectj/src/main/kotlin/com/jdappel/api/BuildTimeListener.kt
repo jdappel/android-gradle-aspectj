@@ -1,4 +1,4 @@
-package com.archinamon.api
+package com.jdappel.api
 
 import org.gradle.BuildListener
 import org.gradle.BuildResult

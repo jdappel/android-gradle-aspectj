@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.archinamon.lang.kotlin
+package com.jdappel.kotlin
 
 import groovy.lang.Closure
 import org.gradle.internal.Cast.uncheckedCast

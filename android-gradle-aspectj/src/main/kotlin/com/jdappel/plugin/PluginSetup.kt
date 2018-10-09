@@ -1,15 +1,15 @@
-package com.archinamon.plugin
+package com.jdappel.plugin
 
 import com.android.build.gradle.AppPlugin
 import com.android.build.gradle.LibraryPlugin
-import com.archinamon.AndroidConfig
-import com.archinamon.AspectJExtension
-import com.archinamon.MISDEFINITION
-import com.archinamon.RETROLAMBDA
-import com.archinamon.api.AspectJCompileTask
-import com.archinamon.api.BuildTimeListener
-import com.archinamon.utils.getJavaTask
-import com.archinamon.utils.getVariantDataList
+import com.jdappel.AndroidConfig
+import com.jdappel.AspectJExtension
+import com.jdappel.MISDEFINITION
+import com.jdappel.RETROLAMBDA
+import com.jdappel.api.AspectJCompileTask
+import com.jdappel.api.BuildTimeListener
+import com.jdappel.utils.getJavaTask
+import com.jdappel.utils.getVariantDataList
 import org.gradle.api.GradleException
 import org.gradle.api.Plugin
 import org.gradle.api.Project

@@ -1,4 +1,4 @@
-package com.archinamon.utils
+package com.jdappel.utils
 
 import org.junit.Rule
 import org.junit.Test

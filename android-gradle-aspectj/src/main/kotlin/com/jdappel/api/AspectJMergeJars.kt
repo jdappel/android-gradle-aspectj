@@ -1,11 +1,11 @@
-package com.archinamon.api
+package com.jdappel.api
 
 import com.android.build.api.transform.Format
 import com.android.build.api.transform.TransformException
 import com.android.build.api.transform.TransformInvocation
 import com.android.builder.packaging.JarMerger
 import com.android.utils.FileUtils
-import com.archinamon.api.transform.AspectJTransform
+import com.jdappel.api.transform.AspectJTransform
 import java.io.File
 
 /**
@@ -16,7 +16,7 @@ import java.io.File
  */
 internal class AspectJMergeJars {
 
-    private val target = com.archinamon.api.transform.TRANSFORM_NAME
+    private val target = com.jdappel.api.transform.TRANSFORM_NAME
 
     internal fun doMerge(transform: AspectJTransform, context: TransformInvocation, resultDir: File) {
         if (resultDir.listFiles().isNotEmpty()) {

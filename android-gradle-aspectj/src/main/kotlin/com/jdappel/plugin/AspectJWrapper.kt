@@ -1,11 +1,11 @@
-package com.archinamon.plugin
+package com.jdappel.plugin
 
 import com.android.build.gradle.AppExtension
 import com.android.build.gradle.LibraryExtension
 import com.android.build.gradle.TestedExtension
-import com.archinamon.AndroidConfig
-import com.archinamon.AspectJExtension
-import com.archinamon.api.transform.*
+import com.jdappel.AndroidConfig
+import com.jdappel.AspectJExtension
+import com.jdappel.api.transform.*
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import javax.inject.Inject

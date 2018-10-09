@@ -1,4 +1,4 @@
-package com.archinamon.api.transform
+package com.jdappel.api.transform
 
 import com.android.build.api.transform.QualifiedContent
 import com.android.build.gradle.internal.pipeline.TransformManager

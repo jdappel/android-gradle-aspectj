@@ -1,8 +1,8 @@
-package com.archinamon
+package com.jdappel
 
 import com.android.build.gradle.*
 import com.android.build.gradle.internal.api.dsl.extensions.BaseExtension2
-import com.archinamon.plugin.ConfigScope
+import com.jdappel.plugin.ConfigScope
 import org.gradle.api.GradleException
 import org.gradle.api.Project
 import java.io.File

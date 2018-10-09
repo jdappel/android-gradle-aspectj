@@ -1,4 +1,4 @@
-package com.archinamon.utils
+package com.jdappel.utils
 
 import com.android.build.gradle.BasePlugin
 import com.android.build.gradle.internal.api.dsl.extensions.BaseExtension2

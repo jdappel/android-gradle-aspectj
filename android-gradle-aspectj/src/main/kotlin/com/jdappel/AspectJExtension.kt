@@ -1,4 +1,4 @@
-package com.archinamon
+package com.jdappel
 
 open class AspectJExtension {
 

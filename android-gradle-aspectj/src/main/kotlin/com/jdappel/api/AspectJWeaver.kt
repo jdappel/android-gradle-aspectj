@@ -1,7 +1,7 @@
-package com.archinamon.api
+package com.jdappel.api
 
-import com.archinamon.utils.logBuildParametersAdapted
-import com.archinamon.utils.logExtraAjcArgumentAlreadyExists
+import com.jdappel.utils.logBuildParametersAdapted
+import com.jdappel.utils.logExtraAjcArgumentAlreadyExists
 import org.aspectj.bridge.IMessage
 import org.aspectj.bridge.MessageHandler
 import org.aspectj.tools.ajc.Main

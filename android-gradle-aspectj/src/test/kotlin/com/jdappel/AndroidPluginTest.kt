@@ -1,4 +1,4 @@
-package com.archinamon
+package com.jdappel
 
 import org.gradle.api.GradleException
 import org.gradle.testfixtures.ProjectBuilder
