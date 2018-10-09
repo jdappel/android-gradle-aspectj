@@ -1,1 +1,2 @@
 script: ./gradlew jar
+language: "android"
