@@ -1,6 +1,6 @@
 # GradleAspectJ-Android
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.2.71-blue.svg)](http://kotlinlang.org) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
-[ ![Download](https://api.bintray.com/packages/jdappel/maven/android-gradle-aspectj/images/download.svg) ](https://bintray.com/archinamon/maven/android-gradle-aspectj/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/jdappel/maven/android-gradle-aspectj/images/download.svg) ](https://bintray.com/jdappel/maven/android-gradle-aspectj/_latestVersion)
 
 A Gradle plugin which enables AspectJ for Android builds.
 Supports writing code with AspectJ-lang in `.aj` files and in java-annotation style.
@@ -12,7 +12,7 @@ Actual version: `com.jdappel:android-gradle-aspectj:3.3.0`.
 Friendly with <a href="https://zeroturnaround.com/software/jrebel-for-android/" target="_blank">jRebel for Android</a>!
 
 This plugin is completely friendly with <a href="https://bitbucket.org/hvisser/android-apt" target="_blank">APT</a> (Android Annotation Processing Tools) and <a href="https://github.com/evant/gradle-retrolambda/" target="_blank">Retrolambda</a> project (but Java 8 not supported in .aj files).
-<a href="https://github.com/excilys/androidannotations" target="_blank">AndroidAnnotations</a>, <a href="https://github.com/square/dagger" target="_blank">Dagger</a> are also supported and works fine.
+<a href="https://github.com/excilys/androidannotations" target="_blank">AndroidAnnotations</a>, <a href="https://github.com/google/dagger" target="_blank">Dagger</a> are also supported and works fine.
 
 This plugin has many ideas from the others similar projects, but no one of them grants full pack of features like this one.
 Nowdays it has been completely re-written using Transform API.
@@ -85,7 +85,7 @@ Tune extension
 
 ```groovy
 aspectj {
-    ajc '1.8.12' // default value
+    ajc '1.9.1' // default value
 
     /* @see Ext plugin config **/
     includeAllJars false // default value
@@ -115,7 +115,7 @@ Note that you may not include all these options!
 All the extension parameters are have default values (all of them are described above, except of includeJar/Aspects/ajcArgs options).
 So no need to define them manually.
 
-- `ajc` Allows to define the aspectj runtime jar version manually (1.8.12 current)
+- `ajc` Allows to define the aspectj runtime jar version manually (1.9.1 current)
 - `extendClasspath` Explicitly controls whether plugin should mutate the classpath with aspectj-runtime itself
 
 - `includeAllJars` Explicitly include all available jar-files into -inpath to proceed by AJ-compiler
@@ -199,8 +199,6 @@ Changelog
 ---------
 #### 3.3.0 -- AGP 3.2.0 and Gradle 4.10.2 Support
 * added support for version 3.2.0 of the Android Gradle plugin
-
-All these limits are fighting on and I'll be glad to introduce new build as soon as I solve these problems.
 
 License
 -------
