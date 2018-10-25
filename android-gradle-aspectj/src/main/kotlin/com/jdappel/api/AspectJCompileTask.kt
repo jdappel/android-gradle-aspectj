@@ -72,8 +72,8 @@ internal open class AspectJCompileTask : AbstractCompile() {
                     ajSources = sources
                     inPath shl this@task.destinationDir shl javaCompiler.destinationDir
 
-                    targetCompatibility = JavaVersion.VERSION_1_7.toString()
-                    sourceCompatibility = JavaVersion.VERSION_1_7.toString()
+                    targetCompatibility = android.extAndroid.compileOptions.targetCompatibility.toString()
+                    sourceCompatibility = android.extAndroid.compileOptions.sourceCompatibility.toString()
                     destinationDir = this@task.destinationDir.absolutePath
                     bootClasspath = android.getBootClasspath().joinToString(separator = File.pathSeparator)
                     encoding = javaCompiler.options.encoding
