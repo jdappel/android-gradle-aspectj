@@ -43,7 +43,7 @@ dependencies {
 }
 
 group = 'com.jdappel'
-version = '3.3.0'
+version = '3.4.0-SNAPSHOT'
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
