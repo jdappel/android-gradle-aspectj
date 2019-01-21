@@ -10,7 +10,7 @@ import org.gradle.api.tasks.compile.JavaCompile
 import java.io.File
 
 fun getJavaTask(baseVariantData: BaseVariantData): JavaCompile? {
-    return baseVariantData.taskContainer.javacTask
+    return baseVariantData.taskContainer.javacTask.get()
 }
 
 fun getAjSourceAndExcludeFromJavac(project: Project, variantData: BaseVariantData): FileCollection {
